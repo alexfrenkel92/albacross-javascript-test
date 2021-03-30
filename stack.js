@@ -42,11 +42,4 @@ class Stack {
   }
 }
 
-let stack = new Stack(1, 2, 3);
-
-console.log(stack);
-stack.swap();
-stack.peek();
-console.log(stack);
-
 module.exports = Stack;
